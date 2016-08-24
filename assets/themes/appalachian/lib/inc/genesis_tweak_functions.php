@@ -276,7 +276,7 @@ function msdlab_do_title_area(){
 }
 
 
-function msdlab_do_section_title(){
+/*function msdlab_do_section_title(){
     if(is_front_page()){
         msdlab_do_homepage_top_menu();
         //add_action('genesis_entry_header','genesis_do_post_title',5);
@@ -321,7 +321,7 @@ function msdlab_do_section_title(){
     }
 }
 
-
+*/
 function msdlab_add_portfolio_prefix($content){
     return '<a href="/portfolio">Portfolio</a>/'.$content;
 }
