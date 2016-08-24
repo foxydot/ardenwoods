@@ -237,4 +237,13 @@ function homepage_footer_hook()
         jQuery('#_homepage_features_metabox').after(jQuery('#_homepage_map_metabox'));
     </script><?php
 }
+
+add_action('genesis_after_header','msdlab_hero');
+function msdlab_hero(){
+   if(is_active_sidebar('homepage-top') && is_front_page()){
+       print '<div id="hp-top" class="hp-top">';
+       dynamic_sidebar('homepage-top');
+       print '</div>';
+   }
+}
 /* eof */
