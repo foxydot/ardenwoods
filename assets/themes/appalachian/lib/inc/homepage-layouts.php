@@ -237,6 +237,4 @@ function homepage_footer_hook()
         jQuery('#_homepage_features_metabox').after(jQuery('#_homepage_map_metabox'));
     </script><?php
 }
-
-
 /* eof */
