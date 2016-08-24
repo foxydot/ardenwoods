@@ -85,7 +85,7 @@ function msdlab_pre_header_sidebar(){
     dynamic_sidebar( 'pre-header' );
     print '</div>';
 }
-function msdlab_do_homepage_top_menu(){
+/*function msdlab_do_homepage_top_menu(){
     if(has_nav_menu('homepage_top')){
         $homepage_top = wp_nav_menu(
             array(
@@ -97,7 +97,7 @@ function msdlab_do_homepage_top_menu(){
     }
     print '<nav id="homepage_top" class="homepage-top" itemtype="http://schema.org/SiteNavigationElement" itemscope="itemscope" role="navigation">'.$homepage_top.'</nav>';
 }
-
+*/
 function msdlab_header_right(){
     global $wp_registered_sidebars;
 
