@@ -51,7 +51,7 @@ function msdlab_hero(){
 /**
  * Add a hero space with the site description
  */
-function msdlab_callout(){
+/*function msdlab_callout(){
 	print '<div id="hp-callout">';
 	print '<div class="wrap">';
     if(is_active_sidebar('homepage-callout')){
@@ -62,7 +62,7 @@ function msdlab_callout(){
 	print '</div>';
 	print '</div>';
 }
-
+*/
 /**
  * Add flaxible widget area
  */
