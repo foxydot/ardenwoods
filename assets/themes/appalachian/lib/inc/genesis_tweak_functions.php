@@ -20,7 +20,7 @@ function msdlab_alter_loop_params($query){
                         )
                     );
             $query->set('meta_query',$meta_query);
-            
+
             $query->set('meta_key','_event_event_datestamp');
             $query->set('orderby','meta_value_num');
             $query->set('order','ASC');
@@ -85,19 +85,19 @@ function msdlab_pre_header_sidebar(){
     dynamic_sidebar( 'pre-header' );
     print '</div>';
 }
-function msdlab_do_homepage_top_menu(){
+/* function msdlab_do_homepage_top_menu(){
     if(has_nav_menu('homepage_top')){
-        $homepage_top = wp_nav_menu( 
-            array( 
+        $homepage_top = wp_nav_menu(
+            array(
             'theme_location' => 'homepage_top',
             'container_class' => 'menu genesis-nav-menu menu-tabs',
-            'echo' => FALSE, 
-            ) 
+            'echo' => FALSE,
+            )
         );
     }
     print '<nav id="homepage_top" class="homepage-top" itemtype="http://schema.org/SiteNavigationElement" itemscope="itemscope" role="navigation">'.$homepage_top.'</nav>';
 }
-
+*/
 function msdlab_header_right(){
     global $wp_registered_sidebars;
 
@@ -139,8 +139,8 @@ function msdlab_do_header() {
 function msdlab_search_text($text) {
     $text = esc_attr( 'Search' );
     return $text;
-} 
- 
+}
+
  /**
  * Customize search button text
  */
@@ -150,7 +150,7 @@ function msdlab_search_button($text) {
 }
 
 /**
- * Customize search form 
+ * Customize search form
  */
 function msdlab_search_form($form, $search_text, $button_text, $label){
    if ( genesis_html5() )
@@ -233,7 +233,7 @@ function msdlab_do_blog_sidebar(){
  * This ensures that the primary sidebar is always to the left.
  */
 function msdlab_ro_layout_logic() {
-    $site_layout = genesis_site_layout();    
+    $site_layout = genesis_site_layout();
     if ( $site_layout == 'sidebar-content-sidebar' ) {
         // Remove default genesis sidebars
         remove_action( 'genesis_after_content', 'genesis_get_sidebar' );
@@ -248,7 +248,7 @@ function msdlab_ro_layout_logic() {
 /**
  * Move titles
  */
- 
+
 function msdlab_maybe_move_title(){
     global $post;
     $template_file = get_post_meta($post->ID,'_wp_page_template',TRUE);
@@ -258,7 +258,7 @@ function msdlab_maybe_move_title(){
         add_action('genesis_after_header','msdlab_do_title_area');
     }
 }
- 
+
 function msdlab_do_title_area(){
     global $post;
     $postid = is_admin()?$_GET['post']:$post->ID;
@@ -267,7 +267,7 @@ function msdlab_do_title_area(){
         print '<div id="page-title-area" class="page-title-area">';
         do_action('msdlab_title_area');
         print '</div>';
-    } else { 
+    } else {
         print '<div id="page-title-area" class="page-title-area">';
         do_action('msdlab_title_area');
         print '</div>';
@@ -277,7 +277,7 @@ function msdlab_do_title_area(){
 
 function msdlab_do_section_title(){
     if(is_front_page()){
-        msdlab_do_homepage_top_menu();  
+        msdlab_do_homepage_top_menu();
         //add_action('genesis_entry_header','genesis_do_post_title',5);
     } elseif(is_page()){
         global $post;
@@ -373,9 +373,9 @@ function msdlab_background_site_container( $attributes ){
 function msdlab_prev_next_post_nav() {
     if ( ! is_singular() || is_page() )
         return;
-	
+
     $in_same_term = false;
-    $excluded_terms = false; 
+    $excluded_terms = false;
     $previous_post_link = get_previous_post_link('&laquo; %link', '%title', $in_same_term, $excluded_terms, 'category');
     $next_post_link = get_next_post_link('%link &raquo;', '%title', $in_same_term, $excluded_terms, 'category');
     if(is_cpt('project')){
@@ -385,7 +385,7 @@ function msdlab_prev_next_post_nav() {
         $size = 'nav-post-thumb';
         $previous_post_link = $prev_post?'<a href="'.get_post_permalink($prev_post->ID).'" style="background-image:url('.msdlab_get_thumbnail_url($prev_post->ID, $size).'")><span class="nav-title"><i class="fa fa-angle-double-left"></i> '.$prev_post->post_title.'</span></a>':'<div href="'.get_post_permalink($post->ID).'" style="opacity: 0.5;background-image:url('.msdlab_get_thumbnail_url($post->ID, $size).'")><span class="nav-title">You are at the beginning of the portfolio.</span></div>';
         $next_post_link = $next_post?'<a href="'.get_post_permalink($next_post->ID).'" style="background-image:url('.msdlab_get_thumbnail_url($next_post->ID, $size).'")><span class="nav-title">'.$next_post->post_title.' <i class="fa fa-angle-double-right"></i></span></a>':'<div href="'.get_post_permalink($post->ID).'" style="opacity: 0.5;background-image:url('.msdlab_get_thumbnail_url($post->ID, $size).'")><span class="nav-title">You are at the end of the portfolio.</span></div>';
-        
+
     }
 
     genesis_markup( array(
@@ -393,8 +393,8 @@ function msdlab_prev_next_post_nav() {
         'xhtml'   => '<div class="navigation">',
         'context' => 'adjacent-entry-pagination',
     ) );
-    
-    
+
+
 
     echo '<div class="pagination-previous pull-left col-xs-6">';
     echo $previous_post_link;
@@ -411,7 +411,7 @@ function msdlab_prev_next_post_nav() {
 
 function msdlab_maybe_wrap_inner(){
     global $do_wrap;
-    
+
     $layout = genesis_site_layout();
     $template = get_page_template();
     switch($layout){
@@ -456,7 +456,7 @@ function msdlab_maybe_structural_wrap($context = '', $output = 'open', $echo = t
         genesis_structural_wrap($context,$output,$echo);
     }
 }
- 
+
 
 /*** SITEMAP ***/
 function msdlab_sitemap(){
@@ -475,12 +475,12 @@ function msdlab_sitemap(){
             foreach( get_post_types( array('public' => true) ) as $post_type ) {
               if ( in_array( $post_type, array('post','page','attachment') ) )
                 continue;
-            
+
               $pt = get_post_type_object( $post_type );
-            
+
               $col2 .= '<h4>'.$pt->labels->name.'</h4>';
               $col2 .= '<ul>';
-            
+
               query_posts('post_type='.$post_type.'&posts_per_page=-1');
               while( have_posts() ) {
                 the_post();
@@ -491,7 +491,7 @@ function msdlab_sitemap(){
                 }
               }
             wp_reset_query();
-            
+
               $col2 .= '</ul>';
             }
 
@@ -511,7 +511,7 @@ function msdlab_sitemap(){
        <div class="col-md-4 col-sm-12">'.$col3.'</div>
     </div>';
     print $ret;
-} 
+}
 
 
  /**
@@ -604,5 +604,3 @@ if(!function_exists('msdlab_custom_hooks_management')){
         if(get_option('site_lockout')){print '<div style="width: 100%; position: fixed; top: 0; z-index: 100000; background-color: red; padding: 12px; color: white; font-weight: bold; font-size: 24px;text-align: center;">'.get_option('site_lockout').'</div>';}
     }
 }
-
-
