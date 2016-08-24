@@ -31,7 +31,9 @@ unregister_sidebar( 'header-right' );
  */
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 //add_action( 'msdlab_pre_header', 'genesis_do_subnav' );
-add_action('msdlab_pre_header','msdlab_pre_header_sidebar');
+//add_action('msdlab_pre_header','msdlab_pre_header_sidebar');
+add_action('msdlab_pre_header','msdlab_header_right');
+add_action('msdlab_pre_header','msdlab_pre_header_logo');
 
 remove_action('genesis_header','genesis_do_header' );
 add_action('genesis_header','msdlab_do_header' );

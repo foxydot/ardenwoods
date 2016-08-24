@@ -61,11 +61,18 @@ function msdlab_add_apple_touch_icons(){
  * Add pre-header with social and search
  */
 function msdlab_pre_header(){
-    print '<div id="pre-header" class="pre-header">
-        <div class="wrap">';
-           do_action('msdlab_pre_header');
-    print '
-        </div>
+    if(is_front_page()){
+        print '<div id="pre-header" class="pre-header">
+            <div class="wrap">';
+               do_action('msdlab_pre_header');
+        print '
+            </div>
+        </div>';
+    }
+}
+
+function msdlab_pre_header_logo(){
+    print '<div class="logo">
     </div>';
 }
 
@@ -78,7 +85,19 @@ function msdlab_pre_header_sidebar(){
     dynamic_sidebar( 'pre-header' );
     print '</div>';
 }
-
+/*function msdlab_do_homepage_top_menu(){
+    if(has_nav_menu('homepage_top')){
+        $homepage_top = wp_nav_menu(
+            array(
+            'theme_location' => 'homepage_top',
+            'container_class' => 'menu genesis-nav-menu menu-tabs',
+            'echo' => FALSE,
+            )
+        );
+    }
+    print '<nav id="homepage_top" class="homepage-top" itemtype="http://schema.org/SiteNavigationElement" itemscope="itemscope" role="navigation">'.$homepage_top.'</nav>';
+}
+*/
 function msdlab_header_right(){
     global $wp_registered_sidebars;
 
@@ -150,9 +169,9 @@ function msdlab_get_thumbnail_url($post_id = null, $size = 'post-thumbnail'){
     return $url;
 }
 
-function msdlab_page_banner(){
+/*function msdlab_page_banner(){
     if(is_front_page()){
-        return false;
+        msdlab_do_homepage_top_menu();
     } else {
     global $post;
     $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'page_banner' );
@@ -161,6 +180,7 @@ function msdlab_page_banner(){
     print $ret;
     }
 }
+*/
 
 /*** NAV ***/
 function msdlab_do_nav() {
@@ -187,12 +207,11 @@ function msdlab_add_extra_theme_sidebars(){
     //unregister_sidebar( 'header-right' );
     // REmove seondary sidebar
     unregister_sidebar( 'sidebar-alt' );
-    genesis_register_sidebar(array(
+    /*genesis_register_sidebar(array(
     'name' => 'Pre-header Sidebar',
     'description' => 'Widget above the logo/nav header',
     'id' => 'pre-header'
             ));
-            /*
     genesis_register_sidebar(array(
     'name' => 'Page Footer Widget',
     'description' => 'Widget on page footer',
@@ -257,8 +276,9 @@ function msdlab_do_title_area(){
 }
 
 
-function msdlab_do_section_title(){
+/*function msdlab_do_section_title(){
     if(is_front_page()){
+        msdlab_do_homepage_top_menu();
         //add_action('genesis_entry_header','genesis_do_post_title',5);
     } elseif(is_page()){
         global $post;
@@ -301,7 +321,7 @@ function msdlab_do_section_title(){
     }
 }
 
-
+*/
 function msdlab_add_portfolio_prefix($content){
     return '<a href="/portfolio">Portfolio</a>/'.$content;
 }
