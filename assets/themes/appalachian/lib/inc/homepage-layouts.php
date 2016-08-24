@@ -18,13 +18,13 @@ function msdlab_add_homepage_hero_flex_sidebars(){
         'xhtml' => '<div id="%1$s" class="widget %2$s"><div class="widget-wrap">',
         'echo'  => false,
     ) ),
-    
+
     'after_widget'  => genesis_markup( array(
         'html5' => '</div><div class="clear"></div></section>' . "\n",
         'xhtml' => '</div><div class="clear"></div></div>' . "\n",
         'echo'  => false
     ) ),
-            )); 
+            ));
 }
 
 /**
@@ -45,7 +45,7 @@ function msdlab_hero(){
         print '<div id="hp-top" class="hidden-xs">';
         dynamic_sidebar('homepage-top');
         print '</div>';
-    } 
+    }
 }
 
 /**
@@ -172,7 +172,7 @@ function register_taxonomy_scrollie() {
     );
 
     register_taxonomy( 'msdlab_scrollie', array('page'), $args );
-}   
+}
 
 if(!class_exists('WPAlchemy_MetaBox')){
     include_once (WP_CONTENT_DIR.'/wpalchemy/MetaBox.php');
@@ -237,4 +237,17 @@ function homepage_footer_hook()
         jQuery('#_homepage_features_metabox').after(jQuery('#_homepage_map_metabox'));
     </script><?php
 }
+
+/**
+ * Add a hero space with the site description
+ */
+ add_action('genesis_after_header','msdlab_hero');
+function msdlab_hero(){
+    if(is_active_sidebar('homepage-top') && is_front_page()){
+        print '<div id="hp-top" class="hp-top">';
+        dynamic_sidebar('homepage-top');
+        print '</div>';
+    }
+}
+
 /* eof */
