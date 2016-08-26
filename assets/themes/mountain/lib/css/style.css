@@ -7239,8 +7239,8 @@ Site Navigation
 .genesis-nav-menu .separator a {
   border: none;
   display: block;
-  padding: 20px;
-  padding: 2rem;
+  padding: 10px;
+  padding: 1rem;
   position: relative;
 }
 .genesis-nav-menu .menu-item a:hover,
