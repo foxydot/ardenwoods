@@ -87,7 +87,6 @@
 .sectioned-page-wrapper .section {
   text-align: left;
   background-size: cover;
-  color: #ffffff;
 }
 .sectioned-page-wrapper .section .section-title {
   padding: 0;
@@ -100,6 +99,7 @@
   background-image: -o-linear-gradient(left, #2f445a 0%, #2f445a 49.9%, #2f445a 50%, #2f445a 100%);
   background-image: linear-gradient(to right, #2f445a 0%, #2f445a 49.9%, #2f445a 50%, #2f445a 100%);
   border-bottom: 6px solid #2f445a;
+  color: #ffffff;
 }
 .sectioned-page-wrapper .section.section-forms .section-body .wrap {
   padding: 0;
