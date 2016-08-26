@@ -7023,7 +7023,7 @@ img#wpstats {
 }
 .pre-header .widget-area .textwidget ul li {
   display: inline-block;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif !important;
   font-size: 1em;
   font-weight: bold;
   padding: 0 1em;
