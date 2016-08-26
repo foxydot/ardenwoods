@@ -168,6 +168,7 @@
 }
 .sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box p {
   margin: 0;
+  color: #ffffff;
 }
 .sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box h3 {
   background-repeat: no-repeat;
@@ -232,7 +233,7 @@
   padding-left: 50%;
 }
 .sectioned-page-wrapper .section.section-programs .section-title h3 {
-  color: #fcb040;
+  color: #a49565;
   text-align: left;
 }
 .sectioned-page-wrapper .section.section-programs .section-body {
