@@ -1,10 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Allura|Raleway:400,200,700);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700);
 /* Import Fonts
 ------------------------------------------------------------ */
 /* Font Stacks */
 .customsansserif,
 .customsanserif {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -20,7 +21,7 @@
 .button:hover,
 .button a:hover {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -52,7 +53,7 @@
   padding: 7em 0;
 }
 .hp-top .widget_sp_image h2.hero-title {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 50px;
   font-size: 5rem;
@@ -183,7 +184,7 @@
 }
 .sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box .button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;

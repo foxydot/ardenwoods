@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Allura|Raleway:400,200,700);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700);
 /*
 HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
@@ -6271,7 +6272,7 @@ you can use the generic selector below, but it's slower:
 /* Font Stacks */
 .customsansserif,
 .customsanserif {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6287,7 +6288,7 @@ you can use the generic selector below, but it's slower:
 .button:hover,
 .button a:hover {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6389,7 +6390,7 @@ blockquote {
   border: none;
 }
 blockquote p {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6423,7 +6424,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6516,7 +6517,7 @@ input[type="submit"],
 .button,
 .entry-content .button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6544,7 +6545,7 @@ input:hover[type="submit"],
 .button:hover,
 .entry-content .button:hover {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6977,7 +6978,7 @@ img#wpstats {
 .job-manager-application-wrapper .application .application_button,
 .single_job_listing .application .application_button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7047,7 +7048,7 @@ Site Header
 --------------------------------------------- */
 .title-area {
   float: left;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7220,7 +7221,7 @@ Site Navigation
 ---------------------------------------------------------------------------------------------------- */
 .genesis-nav-menu {
   clear: both;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7320,7 +7321,7 @@ Site Navigation
   text-align: right;
 }
 .nav-primary li.menu-item a {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7688,7 +7689,7 @@ article.entry {
   display: block;
 }
 .entry-header .entry-title {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 28px;
   font-size: 2.8rem;
@@ -7702,7 +7703,7 @@ article.entry {
   max-width: 75%;
 }
 .entry-header .entry-subtitle {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 21px;
   font-size: 2.1rem;
@@ -7912,7 +7913,7 @@ Sidebars
 }
 .sidebar .widget_text .textwidget .readmore {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -8090,7 +8091,7 @@ Site Footer
 .site-footer {
   background-color: #ffffff;
   color: #2d2d2d;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 13px;
   font-size: 1.3rem;
@@ -8190,7 +8191,7 @@ Site Footer
 }
 .sectioned-page-wrapper .section .section-subtitle,
 .sectioned-page-wrapper .section h4 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-size: 1.8rem;
@@ -8204,7 +8205,7 @@ Site Footer
   margin-bottom: 2rem;
 }
 .sectioned-page-wrapper .section h3 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-size: 1.8rem;
@@ -8215,7 +8216,7 @@ Site Footer
   margin-bottom: 0.5em;
 }
 .sectioned-page-wrapper .section .section-title h3 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 24px;
   font-size: 2.4rem;
@@ -8440,7 +8441,7 @@ Site Footer
   text-shadow: 0 0 8px #888888;
   background: rgba(255, 255, 255, 0);
   display: block;
-  font-family: "Allura", cursive;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-size: 80px;
   font-size: 8rem;
@@ -8459,7 +8460,7 @@ Site Footer
 }
 .sidebar.sidebar-primary .button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -8504,7 +8505,7 @@ Site Footer
 }
 .sidebar.sidebar-primary section.widget.widget_text .widget-wrap .button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
