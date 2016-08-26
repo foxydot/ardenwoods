@@ -7224,8 +7224,8 @@ Site Navigation
   clear: both;
   font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 1.625;
   line-height: 1.5;
   width: 100%;
@@ -7263,8 +7263,8 @@ Site Navigation
   background: #ffffff;
   border: 1px solid #eee;
   border-top: none;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 15px;
+  font-size: 1.5rem;
   padding: 16px 20px;
   padding: 1.6rem 2rem;
   position: relative;
@@ -7328,7 +7328,7 @@ Site Navigation
   font-size: 1.6rem;
   line-height: 1.625;
   padding: 3em 0.5em;
-  color: #888888;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
   -webkit-transition: all 0.5s ease-in-out;
