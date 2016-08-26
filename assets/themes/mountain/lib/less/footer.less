@@ -1,16 +1,20 @@
 /*
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
+
+@import 'lesshat';
+@import 'mixins';
+
 .site-footer{
-  background-color: @dkorange;
-  color: @white;
+  background-color: @white;
+  color: @dkgrey;
   .customheader(1.3);
   text-align: center;
   padding: 2rem;
   a {
     color: @white;
     &:hover{
-      color: fade(@white,80%);
+      color: fade(@dkgrey,80%);
     }
   }
   .wrap{
@@ -53,7 +57,7 @@ Site Footer
         background-image: url(../img/logo-leed.svg);
       }
       i.logo-lcs{
-        background-image: url("../img/lcs_white_logo.png");
+        background-image: url("../img/logo-lcs-new.png");
         background-position: right center;
         font-style: normal;
         line-height: 3;
