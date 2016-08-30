@@ -33,10 +33,18 @@
   background: @white !important;
   div{
   }
-  .button, .button:hover{
+  .button{
     width: auto;
+      border: 0;
+      background-color: @mdgrey;
+      color: @white;
+      text-decoration: none;
+      &:hover{
+        background-color: darken(@mdgrey,10%);
+      }
+    }
   }
-}
+
 .sectioned-page-wrapper{
   .section{
     text-align: left;
@@ -145,6 +153,28 @@
     }
   }
   .section.section-lifestyle{
+    padding: 8rem 0;
+    .section-title{
+      h3{
+        color: @ardendkblue;
+      }
+    }
+    .section-body{
+      .wrap{
+        max-width: 700px;
+        .button{
+          border: 0;
+          background-color: @mdgrey;
+          color: @white;
+          text-decoration: none;
+          &:hover{
+            background-color: darken(@mdgrey,10%);
+          }
+        }
+      }
+    }
+  }
+  .section.section-heather{
     padding: 8rem 0;
     .section-title{
       h3{

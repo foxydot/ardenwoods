@@ -80,9 +80,15 @@
 .site-inner {
   background: #ffffff !important;
 }
-.site-inner .button,
-.site-inner .button:hover {
+.site-inner .button {
   width: auto;
+  border: 0;
+  background-color: #888888;
+  color: #ffffff;
+  text-decoration: none;
+}
+.site-inner .button:hover {
+  background-color: #6f6f6f;
 }
 .sectioned-page-wrapper .section {
   text-align: left;
@@ -223,6 +229,24 @@
   text-decoration: none;
 }
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button:hover {
+  background-color: #6f6f6f;
+}
+.sectioned-page-wrapper .section.section-heather {
+  padding: 8rem 0;
+}
+.sectioned-page-wrapper .section.section-heather .section-title h3 {
+  color: #2f445a;
+}
+.sectioned-page-wrapper .section.section-heather .section-body .wrap {
+  max-width: 700px;
+}
+.sectioned-page-wrapper .section.section-heather .section-body .wrap .button {
+  border: 0;
+  background-color: #888888;
+  color: #ffffff;
+  text-decoration: none;
+}
+.sectioned-page-wrapper .section.section-heather .section-body .wrap .button:hover {
   background-color: #6f6f6f;
 }
 .sectioned-page-wrapper .section.section-programs {
