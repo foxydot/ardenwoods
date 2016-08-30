@@ -8473,10 +8473,11 @@ Site Footer
   display: table;
   margin: 12px auto;
   text-decoration: none;
-  background-color: rgba(0, 152, 178, 0);
+  background-color: rgba(90, 126, 150, 0);
   border: 2px solid #ffffff;
   border-radius: 6px;
-  background-color: #0098b2;
+  background-color: #5a7e96;
+  float: none;
 }
 .sidebar.sidebar-primary .button:hover {
   background-color: rgba(0, 152, 178, 0.8);
