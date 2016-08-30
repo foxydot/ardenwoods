@@ -6928,6 +6928,7 @@ div.gform_wrapper .gform_footer input[type="submit"] {
   font-size: 14px;
   font-size: 1.4rem;
   display: table;
+  margin-left: 36%;
 }
 /* Jetpack
 --------------------------------------------- */
@@ -8480,7 +8481,7 @@ Site Footer
   float: none;
 }
 .sidebar.sidebar-primary .button:hover {
-  background-color: rgba(0, 152, 178, 0.8);
+  background-color: rgba(90, 126, 150, 0.8);
 }
 .sidebar.sidebar-primary section.widget.widget_text {
   padding: 2rem;
