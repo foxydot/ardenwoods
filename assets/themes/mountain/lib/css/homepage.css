@@ -69,13 +69,13 @@
 }
 .hp-top .widget_sp_image .button {
   border: 0;
-  background-color: #8c8681;
+  background-color: #888888;
   color: #ffffff;
   text-decoration: none;
   margin: 0;
 }
 .hp-top .widget_sp_image .button:hover {
-  background-color: #006c7f;
+  background-color: #6f6f6f;
 }
 .site-inner {
   background: #ffffff !important;
@@ -218,12 +218,12 @@
 }
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button {
   border: 0;
-  background-color: #0098b2;
+  background-color: #888888;
   color: #ffffff;
   text-decoration: none;
 }
 .sectioned-page-wrapper .section.section-lifestyle .section-body .wrap .button:hover {
-  background-color: #006c7f;
+  background-color: #6f6f6f;
 }
 .sectioned-page-wrapper .section.section-programs {
   background-position: center top;
