@@ -7904,7 +7904,7 @@ Sidebars
   font-size: 24px;
   font-size: 2.4rem;
   line-height: 1.625;
-  color: #0098b2;
+  color: #2f445a;
 }
 .sidebar .enews-widget {
   background-color: #333;
@@ -7947,7 +7947,7 @@ Sidebars
   border: 0;
 }
 .sidebar .widget_sp_image .link a i {
-  color: #fcb040;
+  color: #a49565;
 }
 .sidebar .widget.gform_widget {
   background-color: #d4d4d4;
@@ -7956,7 +7956,7 @@ Sidebars
   padding: 0.4rem 2rem 0.4rem 50rem;
 }
 .sidebar span.fa-stack {
-  color: #fcb040;
+  color: #a49565;
 }
 /*
 Footer Widgets
