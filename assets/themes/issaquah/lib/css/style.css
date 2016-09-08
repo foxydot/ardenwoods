@@ -5,7 +5,6 @@ HTML5 Reset
   normalize.css v2.1.2 | MIT License | git.io/normalize
 --------------------------------------------- */
 @import url(//fonts.googleapis.com/css?family=Allura|Raleway:400,200,700);
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700);
 article,
 aside,
 details,
@@ -6272,7 +6271,7 @@ you can use the generic selector below, but it's slower:
 /* Font Stacks */
 .customsansserif,
 .customsanserif {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6285,25 +6284,48 @@ you can use the generic selector below, but it's slower:
 /* Neutrals */
 /* Arrows */
 /* Buttons */
-.button:hover,
-.button a:hover {
+.button {
   padding: 6px 24px;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #a49565;
+  color: #2F5673;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   display: table;
   margin: 12px auto;
   text-decoration: none;
-  background-color: rgba(164, 149, 101, 0);
-  border: 2px solid #a49565;
+  background-color: rgba(47, 86, 115, 0);
+  border: 2px solid #2F5673;
   border-radius: 6px;
-  background-color: rgba(164, 149, 101, 0.4);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.button:hover,
+.button a:hover {
+  padding: 6px 24px;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+  color: #2F5673;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: table;
+  margin: 12px auto;
+  text-decoration: none;
+  background-color: rgba(47, 86, 115, 0);
+  border: 2px solid #2F5673;
+  border-radius: 6px;
+  background-color: rgba(47, 86, 115, 0.4);
 }
 /* Clears */
 .msd-clearfix {
@@ -6354,7 +6376,7 @@ textarea:focus,
   color: #FFF;
 }
 a {
-  color: #888888;
+  color: #404040;
   text-decoration: none;
 }
 a img {
@@ -6382,7 +6404,7 @@ ul {
 }
 blockquote,
 blockquote::before {
-  color: #888888;
+  color: #404040;
 }
 blockquote {
   margin: 40px 40px 24px;
@@ -6390,7 +6412,7 @@ blockquote {
   border: none;
 }
 blockquote p {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6424,7 +6446,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6492,8 +6514,8 @@ input[type="week"],
 select,
 textarea {
   background-color: #FFF;
-  border: 1px solid #D4D4D4;
-  color: #888888;
+  border: 1px solid #D4D4D6;
+  color: #404040;
   font-size: 14px;
   font-size: 1.4rem;
   padding: 0.5em;
@@ -6517,20 +6539,20 @@ input[type="submit"],
 .button,
 .entry-content .button {
   padding: 6px 24px;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #a49565;
+  color: #2F5673;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   display: table;
   margin: 12px auto;
   text-decoration: none;
-  background-color: rgba(164, 149, 101, 0);
-  border: 2px solid #a49565;
+  background-color: rgba(47, 86, 115, 0);
+  border: 2px solid #2F5673;
   border-radius: 6px;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -6545,22 +6567,22 @@ input:hover[type="submit"],
 .button:hover,
 .entry-content .button:hover {
   padding: 6px 24px;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #a49565;
+  color: #2F5673;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   display: table;
   margin: 12px auto;
   text-decoration: none;
-  background-color: rgba(164, 149, 101, 0);
-  border: 2px solid #a49565;
+  background-color: rgba(47, 86, 115, 0);
+  border: 2px solid #2F5673;
   border-radius: 6px;
-  background-color: rgba(164, 149, 101, 0.4);
+  background-color: rgba(47, 86, 115, 0.4);
 }
 .entry-content .button:hover {
   color: #FFF;
@@ -6739,14 +6761,14 @@ img.alignright,
   margin-bottom: 0;
   font-size: 1.2rem;
   background: none;
-  color: #888888;
+  color: #404040;
 }
 .archive-description,
 .author-box {
   background-color: transparent;
   margin-bottom: 40px;
   margin-bottom: 4rem;
-  border-bottom: 2px solid #D4D4D4;
+  border-bottom: 2px solid #D4D4D6;
 }
 .archive-description {
   padding: 0;
@@ -6786,11 +6808,11 @@ img.alignright,
 .section-title a,
 .entry-title a,
 .sidebar .widget-title a {
-  color: #FCB040;
+  color: #2F5673;
 }
 .section-title a:hover,
 .entry-title a:hover {
-  color: #888888;
+  color: #404040;
 }
 .sidebar .widget-title a {
   border: none;
@@ -6826,7 +6848,7 @@ Widgets
   padding: 0.4rem 0;
   font-weight: normal;
   margin-bottom: 0;
-  color: #FCB040;
+  color: #2F5673;
 }
 /* Featured Content
 --------------------------------------------- */
@@ -6928,7 +6950,6 @@ div.gform_wrapper .gform_footer input[type="submit"] {
   font-size: 14px;
   font-size: 1.4rem;
   display: table;
-  margin-left: 36%;
 }
 /* Jetpack
 --------------------------------------------- */
@@ -6979,20 +7000,20 @@ img#wpstats {
 .job-manager-application-wrapper .application .application_button,
 .single_job_listing .application .application_button {
   padding: 6px 24px;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #a49565;
+  color: #2F5673;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   display: table;
   margin: 12px auto;
   text-decoration: none;
-  background-color: rgba(164, 149, 101, 0);
-  border: 2px solid #a49565;
+  background-color: rgba(47, 86, 115, 0);
+  border: 2px solid #2F5673;
   border-radius: 6px;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -7007,51 +7028,20 @@ img#wpstats {
   padding: inherit;
   text-align: inherit;
 }
-.pre-header {
-  background-color: #5a7e96;
-  color: white;
-  z-index: 300;
-  border-bottom: 1px solid #a49565;
-}
-.pre-header .widget-area {
-  width: 100%;
-}
-.pre-header .widget-area .textwidget {
-  text-align: center;
-}
-.pre-header .widget-area .textwidget ul {
-  padding: 1em 0;
-}
-.pre-header .widget-area .textwidget ul li {
-  display: inline-block;
-  font-family: 'Roboto Slab', serif !important;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 0 1em;
-  border-right: 1px solid #FFF;
-}
-.pre-header .widget-area .textwidget ul li i.fa {
-  margin-left: 1em;
-}
-.pre-header .widget-area .textwidget ul li:last-child {
-  border-right: 0;
-}
 /*
 Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  background-color: #2f445a;
+  background-color: #384B45;
   padding: 20px 0;
-  padding: 0.25em 0;
+  padding: 2rem 0;
   z-index: 300;
-  border-bottom: 1px solid #FFF;
-  height: 70px;
 }
 /* Title Area
 --------------------------------------------- */
 .title-area {
   float: left;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7059,9 +7049,7 @@ Site Header
   font-weight: 700;
   padding: 16px 0;
   padding: 1.6rem 0;
-  width: 15%;
-  position: relative;
-  top: -40px;
+  width: 300px;
 }
 .header-image .title-area {
   padding: 0;
@@ -7102,18 +7090,13 @@ Site Header
 }
 .header-image .site-title a {
   float: left;
-  max-height: 100px;
-  width: 100%;
-  height: 100px;
-  background: url(../img/logo.png) no-repeat center left;
+  min-height: 80px;
+  width: 292px;
+  height: 80px;
+  background: url(../img/logo.gif) no-repeat center left;
   background-size: contain;
   margin: 10px 0;
   margin: 1rem 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 /* Widget Area
 --------------------------------------------- */
@@ -7144,7 +7127,7 @@ Site Header
   padding: 0;
   text-transform: uppercase;
   font-size: 1rem;
-  color: #D4D4D4;
+  color: #D4D4D6;
 }
 .site-header .widget-area .widget_nav_menu nav ul li a:after,
 .pre-header .widget-area .widget_nav_menu nav ul li a:after {
@@ -7170,7 +7153,7 @@ Site Header
 }
 .site-header .widget-area .widget_nav_menu nav ul li:hover a,
 .pre-header .widget-area .widget_nav_menu nav ul li:hover a {
-  color: #888888;
+  color: #404040;
   text-decoration: none;
 }
 .site-header .widget-area .search-form,
@@ -7198,7 +7181,7 @@ Site Header
   background: transparent;
   border: 0 none;
   clip: auto;
-  color: #D4D4D4;
+  color: #D4D4D6;
   display: inline-block;
   font-size: 1.2rem;
   height: 18px;
@@ -7219,10 +7202,10 @@ Site Navigation
 ---------------------------------------------------------------------------------------------------- */
 .genesis-nav-menu {
   clear: both;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.625;
   line-height: 1.5;
   width: 100%;
@@ -7260,8 +7243,8 @@ Site Navigation
   background: #FFF;
   border: 1px solid #eee;
   border-top: none;
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   padding: 16px 20px;
   padding: 1.6rem 2rem;
   position: relative;
@@ -7314,24 +7297,22 @@ Site Navigation
 /* Primary Navigation
 --------------------------------------------- */
 .nav-primary {
-  display: inline-block;
-  width: 85%;
-  text-align: right;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.625;
+  background: #BDBBA2;
+  z-index: 800;
+}
+.nav-primary li.menu-item {
+  padding: 0 1.6rem;
 }
 .nav-primary li.menu-item a {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
-  font-size: 15px;
-  font-size: 1.5rem;
-  line-height: 1.625;
-  padding: 1em 0.5em;
-  color: #FFF;
+  padding: 1.6rem 0 1.3rem;
+  color: #384B45;
+  border-bottom: 6px solid transparent;
   text-transform: uppercase;
-  font-weight: 400;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 .nav-primary li.menu-item.first-child {
   padding-left: 0;
@@ -7340,11 +7321,11 @@ Site Navigation
   padding-right: 0;
 }
 .nav-primary li.menu-item .sub-menu {
+  background-color: #BDBBA2;
   margin-top: 0px;
-  background-color: #FFF;
-  border: 1px solid #D4D4D4;
 }
 .nav-primary li.menu-item .sub-menu li.menu-item {
+  background-color: #BDBBA2;
   padding: 0 2rem;
   width: 100%;
   position: relative;
@@ -7352,7 +7333,7 @@ Site Navigation
 .nav-primary li.menu-item .sub-menu li.menu-item a {
   background-color: transparent;
   border: 0;
-  color: #888888;
+  color: #384B45;
   padding: 1rem 0;
   width: 100%;
 }
@@ -7360,24 +7341,15 @@ Site Navigation
   left: 0;
   top: 0;
 }
-.nav-primary li.menu-item .sub-menu > li.menu-item.menu-item-has-children > a:after {
-  font-family: "FontAwesome";
-  content: '\f105';
-  margin: 0 0.5em;
-}
 .nav-primary li.menu-item .sub-menu li.last-child > a {
   border: 0;
 }
-.nav-primary li.menu-item .sub-menu li:hover > a {
-  color: #a49565;
-  text-decoration: none;
+.nav-primary li.menu-item .sub-menu li:hover {
+  background-color: #b2b093;
 }
-.nav-primary .menu > li.menu-item.menu-item-has-children {
-  /*>a:after{
-      .fontawesome;
-      content: '\f107';
-      margin: 0 0.5em;
-    }*/
+.nav-primary li.menu-item .sub-menu li:hover > a {
+  color: #384B45;
+  text-decoration: none;
 }
 .nav-primary li:hover a,
 .nav-primary li.current-menu-item a,
@@ -7385,8 +7357,9 @@ Site Navigation
 .nav-primary li:hover a:hover,
 .nav-primary li.current-menu-item a:hover,
 .nav-primary li.current-menu-ancestor a:hover {
-  color: #a49565;
+  color: #384B45;
   text-decoration: none;
+  border-bottom: 6px solid #384B45;
 }
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
   padding: 3px 0;
@@ -7407,16 +7380,16 @@ Site Navigation
   font-size: 1.4rem;
   line-height: 1.625;
   padding: 0.5rem 1rem;
-  color: #D4D4D4;
+  color: #D4D4D6;
   text-transform: uppercase;
 }
 .nav-secondary .wrap li.menu-item > a:hover {
-  color: #FCB040;
+  color: #2F5673;
 }
 .nav-secondary .wrap li.menu-item ul {
   display: none;
   position: absolute;
-  background: #D4D4D4;
+  background: #D4D4D6;
   text-align: center;
   left: 20px;
   z-index: 500;
@@ -7443,7 +7416,7 @@ Site Navigation
 --------------------------------------------- */
 .nav-footer {
   padding: 0.5rem 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .nav-footer li.menu-item {
   width: auto;
@@ -7471,7 +7444,7 @@ Site Navigation
   font-size: 22px;
   font-size: 2.2rem;
   border-bottom: 0;
-  color: #2f445a;
+  color: #2F5673;
 }
 .widget_advanced_menu .menu > li.current-menu-item ul.sub-menu,
 .widget_advanced_menu .menu > li.current-menu-ancestor ul.sub-menu {
@@ -7501,7 +7474,7 @@ Site Navigation
 }
 .widget_advanced_menu .menu > li.current-menu-item li i,
 .widget_advanced_menu .menu > li.current-menu-ancestor li i {
-  color: #888888;
+  color: #404040;
   width: 1em;
   margin: 0 1rem;
 }
@@ -7513,7 +7486,7 @@ Site Navigation
 }
 .widget_advanced_menu .menu > li.current-menu-item li a,
 .widget_advanced_menu .menu > li.current-menu-ancestor li a {
-  color: #888888;
+  color: #404040;
   padding: 1rem 0;
   display: inline-block;
   width: 80%;
@@ -7523,7 +7496,7 @@ Site Navigation
 }
 .widget_advanced_menu .menu > li.current-menu-item li:hover,
 .widget_advanced_menu .menu > li.current-menu-ancestor li:hover {
-  background: rgba(136, 136, 136, 0.1);
+  background: rgba(64, 64, 64, 0.1);
 }
 .widget_advanced_menu .menu > li.current-menu-item li:hover a:hover,
 .widget_advanced_menu .menu > li.current-menu-ancestor li:hover a:hover {
@@ -7683,13 +7656,13 @@ article.entry {
   display: block;
 }
 .entry-header .entry-title {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 28px;
   font-size: 2.8rem;
   line-height: 1.625;
   font-weight: 500;
-  color: #a49565;
+  color: #2F5673;
   line-height: 1.25;
   margin: 0 0 2rem 0;
   text-align: left;
@@ -7697,13 +7670,13 @@ article.entry {
   max-width: 75%;
 }
 .entry-header .entry-subtitle {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 21px;
   font-size: 2.1rem;
   line-height: 1.625;
   font-weight: 300;
-  color: #2f445a;
+  color: #2F5673;
   line-height: 1.25;
   text-align: left;
 }
@@ -7869,7 +7842,7 @@ Sidebars
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
   background: #E3E2E0;
-  color: #D4D4D4;
+  color: #D4D4D6;
   padding: 6rem 2rem 2rem 0;
   height: 100%;
 }
@@ -7897,7 +7870,7 @@ Sidebars
   font-size: 24px;
   font-size: 2.4rem;
   line-height: 1.625;
-  color: #2f445a;
+  color: #2F5673;
 }
 .sidebar .enews-widget {
   background-color: #333;
@@ -7907,20 +7880,20 @@ Sidebars
 }
 .sidebar .widget_text .textwidget .readmore {
   padding: 6px 24px;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #a49565;
+  color: #2F5673;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   display: table;
   margin: 12px auto;
   text-decoration: none;
-  background-color: rgba(164, 149, 101, 0);
-  border: 2px solid #a49565;
+  background-color: rgba(47, 86, 115, 0);
+  border: 2px solid #2F5673;
   border-radius: 6px;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -7940,22 +7913,22 @@ Sidebars
   border: 0;
 }
 .sidebar .widget_sp_image .link a i {
-  color: #a49565;
+  color: #F16528;
 }
 .sidebar .widget.gform_widget {
-  background-color: #D4D4D4;
+  background-color: #D4D4D6;
   margin-right: -2rem;
   margin-left: -50rem;
   padding: 0.4rem 2rem 0.4rem 50rem;
 }
 .sidebar span.fa-stack {
-  color: #a49565;
+  color: #2F5673;
 }
 /*
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-  background-color: #2f445a;
+  background-color: #404040;
   color: #FFF;
   clear: both;
   padding: 2rem 0;
@@ -7989,7 +7962,7 @@ Footer Widgets
 }
 .footer-widgets .connected-social .social-media a.fa {
   background: #FFF;
-  color: #2f445a;
+  color: #404040;
   border-radius: 100%;
   font-size: 2rem;
   height: 2em;
@@ -8057,15 +8030,12 @@ Footer Widgets
   text-align: left;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu {
-  -moz-column-count: 5;
+  -moz-column-count: 4;
   -moz-column-gap: 30px;
-  -webkit-column-count: 5;
+  -webkit-column-count: 4;
   -webkit-column-gap: 30px;
-  column-count: 5;
+  column-count: 4;
   column-gap: 30px;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li {
   -webkit-column-break-inside: avoid;
@@ -8078,32 +8048,32 @@ Footer Widgets
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li .sub-menu {
   margin-bottom: 1em;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li .sub-menu .sub-menu {
+  display: none;
+}
+.footer-widgets .widget.widget_nav_menu ul.menu > li.first-child {
   display: none;
 }
 /*
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  background-color: #FFF;
-  color: #2D2D2D;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  background-color: #2D2D2D;
+  color: #FFF;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
-  font-size: 13px;
-  font-size: 1.3rem;
+  font-size: 10px;
+  font-size: 1rem;
   line-height: 1.625;
   text-align: center;
   padding: 2rem;
 }
 .site-footer a {
-  color: #2D2D2D;
+  color: #FFF;
 }
 .site-footer a:hover {
-  color: rgba(45, 45, 45, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 .site-footer .wrap {
   position: relative;
@@ -8116,7 +8086,7 @@ Site Footer
   margin-bottom: 0;
 }
 .site-footer .wrap div.icons {
-  display: inline-block;
+  display: block;
   position: relative;
 }
 .site-footer .wrap div.icons i.icon {
@@ -8131,7 +8101,7 @@ Site Footer
   font-weight: 700;
 }
 .site-footer .wrap div.icons i.icon-equal-housing {
-  background-image: url(../img/icon-equal-housing-blk.png);
+  background-image: url(../img/icon-equal-housing.png);
 }
 .site-footer .wrap div.icons i.logo {
   height: 40px;
@@ -8148,8 +8118,8 @@ Site Footer
   background-image: url(../img/logo-leed.svg);
 }
 .site-footer .wrap div.icons i.logo-lcs {
-  background-image: url("../img/logo-lcs-new.png");
-  background-position: right center;
+  background-image: url("../img/logo-lcs.png");
+  background-position: center center;
   font-style: normal;
   line-height: 3;
   max-height: 30px;
@@ -8168,7 +8138,7 @@ Site Footer
   text-align: center;
 }
 .site-footer .wrap .backtotop a {
-  color: #FCB040;
+  color: #2F5673;
   font-size: 2em;
   line-height: 1;
 }
@@ -8191,13 +8161,13 @@ Site Footer
 }
 .sectioned-page-wrapper .section .section-subtitle,
 .sectioned-page-wrapper .section h4 {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 1.625;
   font-weight: 500;
-  color: #FCB040;
+  color: #2F5673;
   line-height: 1.25;
   margin: 0;
 }
@@ -8205,18 +8175,18 @@ Site Footer
   margin-bottom: 2rem;
 }
 .sectioned-page-wrapper .section h3 {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 1.625;
   font-weight: 700;
-  color: #888888;
+  color: #404040;
   line-height: 1.25;
   margin-bottom: 0.5em;
 }
 .sectioned-page-wrapper .section .section-title h3 {
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 24px;
   font-size: 2.4rem;
@@ -8246,7 +8216,7 @@ Site Footer
   background-color: #E3E2E0;
 }
 .sectioned-page-wrapper .section.bkg-blue {
-  background-color: #0098B2;
+  background-color: #2F5673;
   color: #FFF;
 }
 .sectioned-page-wrapper .section.bkg-blue .section-title h3 {
@@ -8283,8 +8253,8 @@ Site Footer
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-color: rgba(0, 152, 178, 0);
-  border-top-color: #0098B2;
+  border-color: rgba(47, 86, 115, 0);
+  border-top-color: #2F5673;
   border-width: 20px 40px;
   margin-left: -40px;
   z-index: 300;
@@ -8310,7 +8280,7 @@ Site Footer
   padding-bottom: 2rem;
 }
 .sectioned-page-wrapper .section.title-bar.title-bar-blue .section-title {
-  background-color: #0098B2;
+  background-color: #2F5673;
 }
 .sectioned-page-wrapper .section.title-bar.title-bar-blue .section-title h3 {
   color: #FFF;
@@ -8326,8 +8296,8 @@ Site Footer
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-color: rgba(0, 152, 178, 0);
-  border-top-color: #0098B2;
+  border-color: rgba(47, 86, 115, 0);
+  border-top-color: #2F5673;
   border-width: 20px 40px;
   margin-left: -40px;
   z-index: 300;
@@ -8387,7 +8357,7 @@ Site Footer
 }
 .sectioned-page-wrapper .section.summary .section-body .more-wrap .expand i {
   display: inline-block;
-  background: #FCB040;
+  background: #2F5673;
   color: #FFF;
   text-align: center;
   height: 20px;
@@ -8425,8 +8395,8 @@ Site Footer
   font-size: 1.4rem;
   line-height: 1.625;
   color: #FFF;
-  padding-top: 1.4em;
-  line-height: 1.8;
+  padding-top: 0;
+  line-height: 1.65;
 }
 .page-title-area {
   background: #FFF;
@@ -8438,10 +8408,10 @@ Site Footer
 }
 .section-title {
   text-align: center;
-  text-shadow: 0 0 8px #888888;
+  text-shadow: 0 0 8px #404040;
   background: rgba(255, 255, 255, 0);
   display: block;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Allura", cursive;
   font-weight: 400;
   font-size: 80px;
   font-size: 8rem;
@@ -8458,37 +8428,12 @@ Site Footer
   text-decoration: none;
   opacity: 1;
 }
-.sidebar.sidebar-primary .button {
-  padding: 6px 24px;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.625;
-  color: #FFF;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  display: table;
-  margin: 12px auto;
-  text-decoration: none;
-  background-color: rgba(90, 126, 150, 0);
-  border: 2px solid #FFF;
-  border-radius: 6px;
-  background-color: #5a7e96;
-  float: none;
-}
-.sidebar.sidebar-primary .button:hover {
-  background-color: rgba(90, 126, 150, 0.8);
-}
 .sidebar.sidebar-primary section.widget.widget_text {
   padding: 2rem;
   margin-bottom: 4rem;
-  color: #888888;
 }
 .sidebar.sidebar-primary section.widget.widget_text .widget-wrap {
-  background-color: #FCB040;
-  border: 1px solid #888888;
+  background-color: #384B45;
   border-radius: 12px;
   text-align: center;
   padding: 2rem;
@@ -8500,48 +8445,53 @@ Site Footer
   background-size: 50px auto;
   background-image: url(../img/icon-calculator.png);
   padding-left: 55px;
-  color: #888888;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 3rem;
   line-height: 1;
 }
+.sidebar.sidebar-primary section.widget.widget_text .widget-wrap .widget-title span.word4 {
+  font-weight: 700;
+  font-size: 3.8rem;
+  color: #ffffff;
+}
 .sidebar.sidebar-primary section.widget.widget_text .widget-wrap .button {
   padding: 6px 24px;
-  font-family: 'Roboto Slab', "Trebuchet MS", Calibri, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.625;
-  color: #888888;
+  color: #384B45;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   display: table;
   margin: 12px auto;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #888888;
+  background-color: rgba(189, 187, 162, 0);
+  border: 2px solid #384B45;
   border-radius: 6px;
-  background-color: #FFF;
+  background-color: #BDBBA2;
   font-size: 14px;
   width: 98%;
 }
 .text-sizer {
   display: block;
   z-index: 90;
-  color: #888888;
+  color: #BDBBA2;
   text-align: right;
 }
 .text-sizer div {
-  border: 1px solid #D4D4D4;
   background: rgba(255, 255, 255, 0.8);
   width: auto;
-  padding: 0.5em 1em;
+  padding: 0.5em;
   float: right;
 }
 .text-sizer div i {
   margin-left: 0.5em;
   padding: 0.5em;
-  color: #888888;
+  background: #BDBBA2;
+  color: #FFF;
   cursor: pointer;
 }
 .msd-fa.block,
@@ -8557,7 +8507,7 @@ Site Footer
 .msd-icon.circle:before,
 .msd-fa.square:before,
 .msd-icon.square:before {
-  background: #fca627;
+  background: #2d3c38;
   color: #FFF;
   border: 2px solid white;
   height: 2.4em;
@@ -8579,7 +8529,7 @@ Site Footer
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 1.625;
-  color: #5a7e96;
+  color: #384B45;
 }
 .su-accordion .su-spoiler .su-spoiler-title .su-spoiler-icon {
   font-size: 1.8rem;
@@ -8618,13 +8568,18 @@ Site Footer
     position: relative;
   }
   .nav-primary li.menu-item {
-    padding: 0;
+    padding: 0 1vw;
     font-size: 1.2vw;
     z-index: 800;
   }
   .nav-primary li.menu-item a {
-    font-size: 1.2vw;
-    padding: 2.4vw 0.6vw;
+    padding: 1.2vw 1vw;
+    border-bottom-width: 0.4vw;
+  }
+  .nav-primary li.menu-item:hover a,
+  .nav-primary li.menu-item.current-menu-ancestor a,
+  .nav-primary li.menu-item.current-menu-item a {
+    border-bottom-width: 0.4vw;
   }
   .nav-primary li.menu-item .sub-menu a {
     font-size: 1.2vw;
@@ -8643,23 +8598,19 @@ Site Footer
     background-image: none;
   }
   .footer-widgets .widget.widget_nav_menu ul.menu {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
   }
 }
 /* Mobile */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 767px) {
   /* Enter Your Custom Styles Here */
   .mobile-only {
     display: block;
   }
-  .site-header {
-    padding: 0;
-  }
-  .nav-primary {
-    width: 100vw;
-  }
+}
+@media only screen and (max-width: 479px) {
   .nav-responsive {
     text-align: left;
     border-bottom: 0;
@@ -8672,7 +8623,7 @@ Site Footer
     display: inline-block;
     width: 100%;
     text-indent: 20px;
-    background: #fdc572;
+    background: #BDBBA2;
     min-height: 50px;
     padding-top: 14px;
     position: relative;
@@ -8684,7 +8635,7 @@ Site Footer
   }
   .nav-responsive a#pull ul#mobile_menu {
     margin-top: 14px;
-    border-top: 1px solid #D4D4D4;
+    border-top: 1px solid #D4D4D6;
   }
   .nav-responsive a#pull ul#mobile_menu li {
     display: block;
@@ -8692,19 +8643,19 @@ Site Footer
     padding: 0;
   }
   .nav-responsive a#pull ul#mobile_menu li a {
-    background: #fdc572;
+    background: #BDBBA2;
     color: #FFF;
     display: block;
     width: 100%;
     padding: 0.5em;
-    border-bottom: 1px solid #D4D4D4;
+    border-bottom: 1px solid #D4D4D6;
     font-size: 1.2rem;
   }
   .nav-responsive a#pull ul#mobile_menu li a .toggle-switch {
     right: 15px;
   }
   .nav-responsive a#pull ul#mobile_menu li a:hover {
-    background: #fedaa4;
+    background: #d2d1c0;
   }
   .nav-responsive a#pull ul#mobile_menu li .toggle-switch {
     margin-right: 12px;
@@ -8734,7 +8685,7 @@ Site Footer
     display: none;
   }
   .nav-responsive a#pull ul#mobile_menu li.current-menu-item a {
-    background: #fee4be;
+    background: #dddccf;
   }
   .nav-responsive a#pull:hover {
     text-decoration: none;
@@ -8751,6 +8702,19 @@ Site Footer
     position: absolute;
     right: 15px;
     top: 0.25em;
+  }
+  /* Enter Your Custom Styles Here */
+  .pre-header .wrap .header-widget-area .widget {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .pre-header .wrap .header-widget-area .widget .button span {
+    display: block;
+  }
+  .pre-header .wrap .header-widget-area .msd-connected {
+    margin-top: -1.5rem;
   }
   .header-image .site-header {
     margin: 0 auto;
@@ -8780,23 +8744,6 @@ Site Footer
   .header-image .nav-primary .wrap {
     padding: 0;
   }
-}
-@media only screen and (max-width: 479px) {
-  /* Enter Your Custom Styles Here */
-  .pre-header .wrap .header-widget-area .widget {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem;
-  }
-  .pre-header .wrap .header-widget-area .widget .button span {
-    display: block;
-  }
-  .footer-widgets .widget.widget_nav_menu ul.menu {
-    -moz-column-count: 1;
-    -webkit-column-count: 1;
-    column-count: 1;
-  }
   .tablepress td,
   .tablepress th {
     display: inline-block;
@@ -8804,6 +8751,11 @@ Site Footer
 }
 @media only screen and (max-width: 322px) {
   /* Enter Your Custom Styles Here */
+  .footer-widgets .widget.widget_nav_menu ul.menu {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
   .site-footer .wrap div.icons i.logo-lcs {
     top: 2em;
   }
