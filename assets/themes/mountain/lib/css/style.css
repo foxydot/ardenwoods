@@ -8057,11 +8057,11 @@ Footer Widgets
   text-align: left;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu {
-  -moz-column-count: 5;
+  -moz-column-count: 6;
   -moz-column-gap: 30px;
-  -webkit-column-count: 5;
+  -webkit-column-count: 6;
   -webkit-column-gap: 30px;
-  column-count: 5;
+  column-count: 6;
   column-gap: 30px;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li {
