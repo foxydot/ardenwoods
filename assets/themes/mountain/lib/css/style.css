@@ -8083,6 +8083,9 @@ Footer Widgets
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li .sub-menu {
   margin-bottom: 1em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li .sub-menu .sub-menu {
   display: none;
