@@ -223,9 +223,6 @@ Site Navigation
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
   padding: 3px 0;
 }
-.is-sticky .nav-primary li.menu-item a {
-  padding: 2em 0.5em;
-}
 /* Secondary Navigation
 --------------------------------------------- */
 .nav-secondary {
