@@ -8057,11 +8057,11 @@ Footer Widgets
   text-align: left;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu {
-  -moz-column-count: 4;
+  -moz-column-count: 5;
   -moz-column-gap: 30px;
-  -webkit-column-count: 4;
+  -webkit-column-count: 5;
   -webkit-column-gap: 30px;
-  column-count: 4;
+  column-count: 5;
   column-gap: 30px;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li {
@@ -8075,9 +8075,6 @@ Footer Widgets
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li .sub-menu {
   margin-bottom: 1em;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li .sub-menu .sub-menu {
   display: none;
