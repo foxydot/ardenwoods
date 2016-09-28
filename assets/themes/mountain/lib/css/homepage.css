@@ -104,7 +104,7 @@
   background-image: -moz-linear-gradient(left, #5a7e96 0%, #5a7e96 49.9%, #2f445a 50%, #2f445a 100%);
   background-image: -o-linear-gradient(left, #5a7e96 0%, #5a7e96 49.9%, #2f445a 50%, #2f445a 100%);
   background-image: linear-gradient(to right, #5a7e96 0%, #5a7e96 49.9%, #2f445a 50%, #2f445a 100%);
-  border-bottom: 6px solid #2f445a;
+  border-bottom: 6px solid #ffffff;
   color: #ffffff;
 }
 .sectioned-page-wrapper .section.section-forms .section-body .wrap {
