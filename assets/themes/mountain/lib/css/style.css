@@ -8603,10 +8603,6 @@ a[href^="tel"] {
   color: #ffffff;
   text-decoration: none;
 }
-body.blog site-inner {
-  position: relative;
-  top: -70px;
-}
 .nav-responsive ul,
 .nav-responsive li,
 .nav-responsive li a {
